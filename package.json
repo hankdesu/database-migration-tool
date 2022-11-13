@@ -1,0 +1,24 @@
+{
+  "name": "database-migration-tool",
+  "version": "1.0.0",
+  "description": "A tool of postgresql databse migration written by nodejs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HankChou",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "pg": "^8.8.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "^2.7.1"
+  }
+}
